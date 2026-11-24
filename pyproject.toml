@@ -1,7 +1,7 @@
 [project]
 name = "python-security-lab"
 version = "0.1.0"
-description = "Python do básico ao intermediário, com foco em IA e Segurança (preparação para a Pós Tech FIAP)"
+description = "Hands-on Python lab focused on security operations and AI for security"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
@@ -21,7 +21,7 @@ default-groups = ["dev"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
-testpaths = ["fase0_ambiente", "diagnostico"]
+testpaths = ["phase0_setup", "diagnostic"]
 addopts = "-q"
 
 [tool.ruff]

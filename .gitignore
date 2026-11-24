@@ -1,4 +1,4 @@
-# Ambiente virtual e caches
+# Virtual environment and caches
 .venv/
 __pycache__/
 *.pyc
@@ -6,7 +6,7 @@ __pycache__/
 .ruff_cache/
 .ipynb_checkpoints/
 
-# Segredos: NUNCA versionar
+# Secrets: NEVER commit
 .env
 *.key
 *.pem
@@ -14,7 +14,7 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Dados grandes e modelos treinados (versionar só amostras pequenas)
+# Large datasets and trained models (only small samples are versioned)
 data/raw/
 *.joblib
 *.pkl
