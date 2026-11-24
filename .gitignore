@@ -1,0 +1,20 @@
+# Ambiente virtual e caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Segredos: NUNCA versionar
+.env
+*.key
+*.pem
+
+# macOS
+.DS_Store
+
+# Dados grandes e modelos treinados (versionar só amostras pequenas)
+data/raw/
+*.joblib
+*.pkl
